@@ -5,6 +5,7 @@ ruby '2.5.7'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.2.4'
+gem 'bcrypt', '3.1.12'
 gem 'bootstrap-sass', '3.3.7'
 # Use sqlite3 as the database for Active Record
 
@@ -42,7 +43,6 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'sqlite3', '1.3.13'
   gem 'byebug', '9.0.6', platforms: :mri
-  gem 'rspec-rails'
 end
 
 group :development do
