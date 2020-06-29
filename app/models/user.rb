@@ -35,6 +35,6 @@ class User < ApplicationRecord
 
   # ユーザーのログイン情報を破棄する
   def forget
-    udpate_attribute(:remember_digest, nil)
+    update_attribute(:remember_digest, nil)
   end
 end
